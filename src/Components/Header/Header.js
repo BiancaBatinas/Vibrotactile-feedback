@@ -1,6 +1,6 @@
 import {Fragment} from 'react';
 import classes from './Header.module.css';
-import buttonImg from '../../Assets/meal.jpg';
+import buttonImg from '../../Assets/1.jpg';
 
 const Header = props => {
     return <Fragment>
@@ -8,7 +8,7 @@ const Header = props => {
             <h1> TreasureHunt </h1>
         </header>
         <div className={classes['main-image']}>
-            <img src={buttonImg} alt="Meals"/>
+            <img src={buttonImg} alt="Img fundal"/>
         </div>
 
     </Fragment>

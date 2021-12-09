@@ -49,22 +49,8 @@ function getVibration(clue)
 }
 export function SendVibrateSignal(clue)
 {
-<<<<<<< Updated upstream
     var values = Table[clue] ? Table[clue] : Table['0'];
     //var values= getVibration(clue);
-=======
-    var values= JSON["Bianca"];
-    /*
-    var pattern= [];
-    for (let i = 0; i<values.length; i++)
-    {
-        const pulse = values[i];
-        var pat=genVibratorPattern(pulse.intensity,pulse.duration);
-        console.log(pat);
-        for(let j=0;j<pat.length;j++)
-            pattern.push(pat[j]);
-    }*/
->>>>>>> Stashed changes
     var pattern =vibrationToPattern(values,40);
     return () => {
         navigator.vibrate (pattern);
