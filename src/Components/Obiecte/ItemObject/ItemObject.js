@@ -1,34 +1,34 @@
 import { useContext, useState } from "react";
 import classes from "./ItemObject.module.css";
-import Cart from "../../Cart";
+import Img from '../../../Assets/check.png';
 import classess from "./ItemObjectForm.module.css";
 import { SendVibrateSignal } from '../../Vibrations/Vibrations';
 const ItemObject = (props) => {
   const price = `${props.price}`;
-  const [showCart1, setCart1] = useState(false);
 
+  const [showCart1, setCart1] = useState(true);
+ 
+  
   const setShowCart1 = () => {
-    setCart1(true);
+      setCart1(false);
   };
 
   return (
-    <li className={classes.obj}>
-      <div>
+    <div className={classes.obj}>
+      <div className={classes.info}>
         <h3>{props.name}</h3>
-        {showCart1 && (
           <div className={classes.description}>{props.description}</div>
-        )}
-
-        <div className={classes.code}>{price}</div>
       </div>
 
       <div className={classess.form}>
-        <div className={classess.gasit}>
-          <button onClick={() => setShowCart1()}> Found </button>
-          <button onClick={SendVibrateSignal(price)}>Play</button>
-        </div>
+        { showCart1 && <div className={classess.gasit}>
+          <button onClick={() => setShowCart1()}> Gasit </button>
+          <button onClick={SendVibrateSignal(price)}>Reda</button>
+        </div>}
+
+        {!showCart1 && <img className={classes.img} src={Img} alt="checkicon"/>}
       </div>
-    </li>
+    </div>
   );
 };
 
