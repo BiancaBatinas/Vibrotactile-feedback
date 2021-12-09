@@ -2,7 +2,7 @@ import { useContext, useState } from "react";
 import classes from "./ItemObject.module.css";
 import Cart from "../../Cart";
 import classess from "./ItemObjectForm.module.css";
-
+import { SendVibrateSignal } from '../../Vibrations/Vibrations';
 const ItemObject = (props) => {
   const price = `${props.price}`;
   const [showCart1, setCart1] = useState(false);
@@ -25,7 +25,7 @@ const ItemObject = (props) => {
       <div className={classess.form}>
         <div className={classess.gasit}>
           <button onClick={() => setShowCart1()}> Found </button>
-          <button>Play</button>
+          <button onClick={SendVibrateSignal(price)}>Play</button>
         </div>
       </div>
     </li>

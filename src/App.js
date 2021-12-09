@@ -3,7 +3,7 @@ import "./App.css";
 import Header from "./Components/Header/Header";
 import Object from "./Components/Obiecte/Objects";
 import Cart from "./Components/Cart";
-import { SendVibrateSignal } from "./Components/Vibrations/Vibrations";
+
 
 function App() {
   const [showCart, setCart] = useState(false);
@@ -23,7 +23,7 @@ function App() {
       <main>
         <Object />
       </main>
-      <button onClick={SendVibrateSignal()}>APASA AICI MAI FRAIERICA</button>
+      
     </div>
   );
 }
