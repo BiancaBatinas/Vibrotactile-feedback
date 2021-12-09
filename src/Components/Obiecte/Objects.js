@@ -10,8 +10,8 @@ const Objects = props => {
       setsummary(false);
   };
     return (<Fragment>
-        {summaryshow && <MealsSummary onShowSummary={onSetSummary}/>}
-        <AvailableMeals/>
+        {summaryshow && <Summary onShowSummary={onSetSummary}/>}
+        <AvailableObjects/>
     </Fragment>);
 };
 

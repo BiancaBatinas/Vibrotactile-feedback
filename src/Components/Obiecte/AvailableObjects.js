@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import classes from './AvailableObjects.module.css';
 import Card from '../UI/Card';
-import MealItem from './MealItem/MealItem';
+import ItemObject from './ItemObject/ItemObject';
 /*const DUMMY_MEALS = [
     {
       id: 'm1',
@@ -54,7 +54,7 @@ const AvailableObjects = () => {
     fetchMeals();
   }, []);
         
-    const availablemeals = meals.map(meal => <li><MealItem id={meal.id} key = {meal.id} name={meal.name} description={meal.description} price={meal.price}/></li>)
+    const availablemeals = meals.map(meal => <li><ItemObject id={meal.id} key = {meal.id} name={meal.name} description={meal.description} price={meal.price}/></li>)
     
     return <section className={classes.meals}>
       <Card>
