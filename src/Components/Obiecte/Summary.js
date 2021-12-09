@@ -3,10 +3,14 @@ import classes from "./Summary.module.css";
 const Summary = (props) => {
   return (
     <section className={classes.summary} onClick={props.onShowSummary}>
-      <h2> USV </h2>
+      <h2> Instructiuni</h2>
       <p>
-        La corpul C se afla un plic in care se gasesc informatii despre locatia
-        urmatoare.
+        1. La gasirea unui obiect apasati butonul "Gasit" pentru a-l marca. 
+        
+      </p>
+      <p>
+      2. Pentru a afla ce obiect trebuie sa cautati cititi ghicitoarea corespunzatoare si
+        apasati butonul "Reda" pentru a reda vibratia.
       </p>
     </section>
   );
