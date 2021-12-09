@@ -37,7 +37,7 @@ function vibrationToPattern(signal, stepTime = 40)
 
 export function SendVibrateSignal(clue)
 {
-    console.log("Bravooo fratello");
+   
     var values = Table[clue] ? Table[clue] : Table['0'];
     
     var pattern =vibrationToPattern(values,40);

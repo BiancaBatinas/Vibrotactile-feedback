@@ -7,10 +7,19 @@ const ItemObject = (props) => {
   const price = `${props.price}`;
 
   const [showCart1, setCart1] = useState(true);
- 
-  
+  var x=2;
+  function cont() {
+    
+     x=x-1;
+     console.log(x);
+    return x;
+  }
   const setShowCart1 = () => {
-      setCart1(false);
+    
+    
+    
+    if(cont()==0)
+    {setCart1(false);}
   };
 
   return (

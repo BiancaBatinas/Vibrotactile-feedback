@@ -5,7 +5,7 @@ const Summary = (props) => {
     <section className={classes.summary} onClick={props.onShowSummary}>
       <h2> Instructiuni</h2>
       <p>
-        1. La gasirea unui obiect apasati butonul "Gasit" pentru a-l marca. 
+        1. La gasirea unui obiect apasati de doua ori butonul "Gasit" pentru a-l marca. 
         
       </p>
       <p>
