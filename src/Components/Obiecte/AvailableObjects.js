@@ -41,11 +41,16 @@ const AvailableObjects = () => {
       />
     </li>
   ));
+  
 
   return (
-    <section className={classes.meals}>
+    <section className={classes.avobj}>
       <Card>
-        <ul>{availableObj}</ul>
+        <ul>
+          
+          {availableObj }
+          
+          </ul>
       </Card>
     </section>
   );

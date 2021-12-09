@@ -1,23 +1,23 @@
 .obj {
-    display: flex;
-    justify-content: space-between;
-    margin: 1rem;
-    padding-bottom: 1rem;
-    border-bottom: 1px solid #ccc;
-  }
-  
-  .obj h3 {
-    margin: 0 0 0.25rem 0;
-    font-size: 1.5rem;
-  }
-  
-  .description {
-    font-style: italic;
-  }
-  
-  .code {
-    margin-top: 0.25rem;
-    font-weight: bold;
-    color: #2B2D42;
-    font-size: 1.25rem;
-  }
+  display: flex;
+  margin: 0 auto;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ccc;
+  justify-content: space-between;
+}
+
+.obj h3 {
+  margin: 0 0 0.25rem 0;
+  font-size: 1.5rem;
+}
+
+.description {
+  font-style: italic;
+}
+
+.code {
+  margin-top: 0.25rem;
+  font-weight: bold;
+  color: #2b2d42;
+  font-size: 1.25rem;
+}
