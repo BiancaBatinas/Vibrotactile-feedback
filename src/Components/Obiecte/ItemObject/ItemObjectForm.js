@@ -1,5 +1,5 @@
 import classes from './ItemObjectForm.module.css';
-import Input from '../../UI/Input';
+import ItemObject from './ItemObject';
 import { useRef, useState } from 'react';
 
 const ItemObjectForm = props => {
@@ -26,18 +26,16 @@ const ItemObjectForm = props => {
       props.onAddToCart(enteredAmountNumber);
     };
 
-
- return <form className={classes.form} onSubmit={submitHandler}>
-     <Input label="Amount" input={{
-         id: 'amount_' + props.id,
-         type: 'number',
-         min: '1',
-         max: '6',
-         step: '1',
-         defaultValue: '1'
-     }}/>
-     <button> Add </button>
-     {!amountIsValid && <p>Please enter a valid amount (1-5).</p>}
+  
+    
+ return <form className={classes.form } >
+     
+     <div className={classes.gasit}>
+          <button > Found </button>
+          <button> <img src="Users\bianc\Concurs25h\src\Assets\images.png"></img> Play </button> 
+         
+          </div>
+    
  </form>
 
 };
