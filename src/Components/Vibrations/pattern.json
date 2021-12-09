@@ -1,0 +1,12 @@
+{
+  "First pattern": [
+    {"intensity": 50, "duration": 100}, {"intensity": 56, "duration": 100},  {"intensity": 62, "duration": 100},
+    {"intensity": 68, "duration": 100}, {"intensity": 74, "duration": 100}, {"intensity": 80, "duration": 100},
+    {"intensity": 86, "duration": 100}, {"intensity": 92, "duration": 100}, {"intensity": 98, "duration": 100}
+  ],
+  "second_pattern_key": [
+    {"intensity": 80, "duration": 250}, {"intensity": 40, "duration": 250}, {"intensity": 80, "duration": 250},
+    {"intensity": 40, "duration": 250}, {"intensity": 80, "duration": 250}, {"intensity": 40, "duration": 250},
+    {"intensity": 80, "duration": 250}, {"intensity": 40, "duration": 250}, {"intensity": 88, "duration": 250}
+  ]
+}

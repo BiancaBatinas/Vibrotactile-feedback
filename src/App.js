@@ -3,9 +3,15 @@ import './App.css';
 import Header from './Components/Header/Header';
 import Object from './Components/Obiecte/Objects';
 import Cart from './Components/Cart';
+import './Components/Vibrations/Vibrations';
 
+
+import a from './Components/Vibrations/pattern.json';
 function App() {
-
+  const functie = prop => {
+      const firstPattern = a["First pattern"];
+      navigator.vibrate(firstPattern);
+  }
   const [showCart, setCart]= useState(false);
 
   const setShowCart = () => {
@@ -19,8 +25,9 @@ function App() {
     <div>
       {showCart && <Cart onClose={setHideCart}/>}
       <Header onShowCart={setShowCart}/>
+        
       <main>
-      <Object/>
+      <Object/><button onClick={functie}>DA</button>
       </main>
     </div>
     
