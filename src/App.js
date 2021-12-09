@@ -1,13 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import Vireo from './Components/Patterns/Vibratie1';
+
 function App() {
-  const Vib =()=> {
-    if ('vibrate' in window.navigator)
-    window.navigator.vibrate(100);
-else
-    console.log("pa");
-  }
+
   return (
     <div className="App">
       <header className="App-header">
