@@ -34,23 +34,12 @@ function vibrationToPattern(signal, stepTime = 40)
     console.log(arr);
     return arr;
 }
-function getVibration(clue)
-{
-    switch (clue) {
-        case '1' :
-            return Table['1'];
-        case '2' :
-            return Table['2'];
-        case '3' :
-            return Table['3'];
-        default: 
-            return Table["1"];
-    }
-}
+
 export function SendVibrateSignal(clue)
 {
+    console.log("Bravooo fratello");
     var values = Table[clue] ? Table[clue] : Table['0'];
-    //var values= getVibration(clue);
+    
     var pattern =vibrationToPattern(values,40);
     return () => {
         navigator.vibrate (pattern);
