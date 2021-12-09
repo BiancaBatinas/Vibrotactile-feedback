@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="475428ea-617c-431e-b41e-d15075002892" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/Vibrations/Vibrations.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.concurs25h.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.concurs25h.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Vibrations/Vibrations.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Vibrations/Vibrations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Vibrations/pattern.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Vibrations/pattern.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Vibrations/pattern.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +33,6 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/Components/Vibrations/pattern.js" root0="FORCE_HIGHLIGHTING" />
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -52,7 +53,7 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="npm.build">
-    <configuration name="Yes.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/Yes.js" working-dir="$PROJECT_DIR$/src">
+    <configuration name="Vibrations.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="Components/Vibrations/Vibrations.js" working-dir="$PROJECT_DIR$/src">
       <method v="2" />
     </configuration>
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -65,10 +66,14 @@
       <envs />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Node.js.Vibrations.js" />
+      <item itemvalue="npm.build" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="npm.build" />
-        <item itemvalue="Node.js.Yes.js" />
+        <item itemvalue="Node.js.Vibrations.js" />
       </list>
     </recent_temporary>
   </component>
